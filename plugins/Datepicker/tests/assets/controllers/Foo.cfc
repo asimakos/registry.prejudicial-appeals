@@ -1,0 +1,1 @@
+component extends="wheels.Controller" {}
