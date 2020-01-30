@@ -57,7 +57,7 @@ $(document).ready(function(){
 							#e(ful_name)#
 						</td>
 						<td>
-						 &euro; #e(netbudget_proclamation)#
+						 &euro; #e(DecimalFormat(netbudget_proclamation))#
 						</td>
 						<td>
 							#e(cpv_name)#

@@ -48,7 +48,7 @@
 		</tr>
 		<tr>
 			<th>Ποσό Παραβόλου</th>
-			<td>&euro; #e(objection.appeal_fee)#</td>
+			<td>&euro; #e(DecimalFormat(objection.appeal_fee))#</td>
 		</tr>
 		<tr>
 			<th>Διάρκεια έργου (μήνες)</th>
@@ -56,11 +56,11 @@
 		</tr>
 		<tr>
 			<th>Προϋπολογισμός Προκήρυξης (χωρίς ΦΠΑ)</th>
-			<td>&euro; #e(objection.netbudget_proclamation)#</td>
+			<td>&euro; #e(DecimalFormat(objection.netbudget_proclamation))#</td>
 		</tr>
 		<tr>
 			<th>Προϋπολογισμός Προσφυγής (χωρίς ΦΠΑ)</th>
-			<td>&euro; #e(objection.netbudget_appeal)#</td>
+			<td>&euro; #e(DecimalFormat(objection.netbudget_appeal))#</td>
 		</tr>
 		<tr>
 			<th>ΦΠΑ</th>
